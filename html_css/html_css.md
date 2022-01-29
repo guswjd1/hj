@@ -145,3 +145,12 @@ https://www.tablesgenerator.com/
   - figure : 다이어그램 / 이미지 시각 요소
   - main :웹 페이지 본문 전체
   
+## URL / File Path
+
+- URL (Uniform Resource Locator)
+```
+https://www.naver.com/video/movie.mp4
+
+=> https://도메인이름/상세경로:포트번호
+
+```
