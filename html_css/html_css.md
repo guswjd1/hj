@@ -132,3 +132,16 @@ https://www.tablesgenerator.com/
   - muted : 음소거
   - loop : 반복 재생
   - poster : 영상 대체 이미지 (썸네일)
+
+  ## Semantic Element
+
+  - 영역을 구분하는 Element를 의미있게 사용하는 것
+  - header : 로고, 로그인, 언어변경
+  - nav(navigation) : 메뉴(gnb-global navigation), lnb(local navigation bar)
+  - section : 웹 페이지의 본문 / 영역 구분
+  - article : 웹 페이지의 본문 / 독립된 글,내용
+  - aside : 부수적인 내용 / 광고, 배너
+  - footer : 웹 사이트의 위치, 정보, 관련 링크
+  - figure : 다이어그램 / 이미지 시각 요소
+  - main :웹 페이지 본문 전체
+  
