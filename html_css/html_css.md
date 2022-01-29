@@ -168,8 +168,10 @@ Ex) 192.168.0.1 : 0~255까지의 숫자 4개로 구성
     - 파일 경로의 전체 URL을 표현하는 방식
   - 상대 경로
     - 현재 페이지를 기준으로 일부 URL을 표현하는 방식
+    - root 상대 경로 방식 : root를 기준으로 상대적인 URL 표현
 
 ```
+
 domain : www.abc.com
 
 /(root) - html -index.html
@@ -179,5 +181,7 @@ domain : www.abc.com
 
 상대 방식 (현재페이지 : index.html) : ../images/photo.jpg
 (주소가 짧으나 기준에 따라 주소가 달라짐)
+
+root 상대방식 : /images/photo.jpg
 
 ```
