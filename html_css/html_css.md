@@ -11,6 +11,7 @@
 - Wep page의 contents
   - Text contents
   - Multimedia Contents : image, video, audio
+    -Embed(ed) contents : 이미만들어진 것을 끼워넣는 컨텐츠
 - Wep page의 structure
 
 - 학습내용
@@ -72,8 +73,8 @@
 - hr (Horizontal Rules) : 수평선 (단락구분)
 
 - br(Line Break) : 강제 줄바꿈
-(※ 강제 공백(Entity code) : &nbsp; - Nun-breaking soace)
-(※ & : ampersand)
+  (※ 강제 공백(Entity code) : &nbsp; - Nun-breaking soace)
+  (※ & : ampersand)
   - HTML text 줄바꿈, 공백 인식
     - 공백 1칸으로 인식
 
@@ -84,6 +85,7 @@
 - 설명있는 목록 : dl, dt, dd
 
 ※ 포함관계/중첩관계 (Nested Element)
+
 - 포함하는 요소 : 부모요소(Parent), 조상요소(Ancestor)
 - 포함되는 요소 : 자식요소(Child), 자손요소(Descendant)
 - 이웃하는 요소 : 형제요소(sibling)
@@ -95,8 +97,38 @@
 - a(anchor)
   - href(Hypertext reference) attribute : 연결되는 페이지의 주소 정보
   - target : 새탭열기 설정
-    - taget="_blank" : 새탭열기
-  - bookmark 기능
+    - taget="\_blank" : 새탭열기
+  - Bookmark 기능
+
     - 목적지에 id attrbute를 사용해서 이름 지정
     - a 태그의 href 속성에 "#id"로 위치 지정
-    
+
+### HTML Table
+
+- 표를 표시
+- table(표 영역 표시)
+- tr (table row) : 행
+- th (table heading) : 열 제목
+- td (table data) : 열(칸)
+- table henerrator
+https://www.tablesgenerator.com/
+
+## Multimedia contents
+
+### HTML image
+
+- img : image
+
+- attribute
+  - src(source) : 이미지 파일의 경로, 이름
+  - alt(altanative) : 대체 텍스트
+
+### HTML Video
+
+- Video tag
+- attribute (name만 사용하는 형태)
+  - controls : 동영상 컨트롤 버튼 표시 여부
+  - autoplay : 자동 재생
+  - muted : 음소거
+  - loop : 반복 재생
+  - poster : 영상 대체 이미지 (썸네일)
