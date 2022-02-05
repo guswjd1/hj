@@ -211,3 +211,74 @@ root 상대방식 : /images/photo.jpg
 
   - UTF-8 : 문자 표기 방식 중 하나
     Universal Coded Character Set + Transformation Format – 8-bit
+    - 2 byte로 글자를 표시 : 유니코드
+    - 영문 1byte로 표시, 한글 2byte로 표시
+
+- EUC-KR : 한글, 영문 전용 표시 방식
+
+## HTML Block & Inline
+
+- Block
+
+  - 줄바꿈 되어 새 줄에 표시됨
+  - 블럭요소는 너비가 가능한 전체가 채워짐
+  - text, 블럭요소, 인라인요소 모두 포함할 수 있음
+
+- Inline
+
+  - 줄바꿈 되지 않고 한 줄에 표시됨
+  - 인라인 요소는 너비가 콘텐츠/자식요소에 맞춰짐
+  - text, 인라인요소 포함할 수 있음(블럭요소는 포함 불가 a태그)
+
+- div (division)
+
+  - 단순히 영역을 구분하거나 그룹핑을 하는 컨테이너 요소
+  - 블럭요소
+
+- span
+  - 단순히 영역을 구분하거나 그룸핑을 하는 컨테이너 요소
+  - 인라인 요소
+
+## HTML Class, id
+
+- 해당요소에 이름 지정
+
+```
+<p class="클래스이름"></p>
+<p id="아이디이름"></p>
+<p></p>
+```
+
+- 클략스
+
+  - 한 문서내에사 동일한 이름을 사용할 수 있음
+  - 하나의 요소개 여러개의 이름을 사용할 수 있음
+
+- 아이디
+  - 하나의 웹문서 내에서 동일한 이름을 허용 할 수 없음
+  - 하나의 요소에 여러 개의 이름을 사용할 수 없음
+
+```
+
+<div class="text import">text</div>
+<div class="text">text</div>
+
+<div id="title">title1</div>
+<div id="title">title2</div> => (X)
+
+<div id="title import">title3</div> => (X)
+```
+
+- naming 표기법
+  - 네이밍할 때 영어 한개 단어로만 네이밍을 하기 힘들기 때문에 여러 단어를 연결
+  - 연결되는 단어를 구분할 수 있도록 표기
+
+```
+hello html world : 일반 표기
+
+네이밍
+hello_html_world : snake case (파일명)
+hello-html-world : kebab case (URL-폴더, class/id 이름)
+helloHtmlWorld : camel case (js - 변수/함수 이름)
+HelloHtmlWorld : pascal case (js - class 이름)
+```
