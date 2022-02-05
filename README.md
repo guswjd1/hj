@@ -9,7 +9,7 @@ https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-DrzkMZXhnceIZF5AV6J1MTFP
 - 클라이언트 서버모델에서 클라이언트와 서버는 일대일 가상연결 개념
 - 클라이언트의 request(요청)과 서버의 response(응답)의 사이클로 통신이 이루어짐
 
-## Font End VS Back End
+## Font End VS Back End .
 
 - Frnot End
 
