@@ -280,5 +280,21 @@ hello html world : 일반 표기
 hello_html_world : snake case (파일명)
 hello-html-world : kebab case (URL-폴더, class/id 이름)
 helloHtmlWorld : camel case (js - 변수/함수 이름)
-HelloHtmlWorld : pascal case (js - class 이름)
+HelloHtmlWorld : pascal case (js - Class 이름)
+```
+
+# CSS
+
+## CSS Introduction / Syntax
+
+- Cascading Style Sheet
+- 여러개의 html 파일에 공통 적용
+
+```
+Selector(선택자) {
+  CSS property:value;
+  CSS property:value;
+  CSS property:value;
+}
+
 ```
