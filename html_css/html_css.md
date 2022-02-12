@@ -394,3 +394,58 @@ h1 {          ← tag 선택자
 
 - list-style-type : 목록 기호 스타일 지정
 - none : 목록 기호 삭제
+
+### Table Style
+
+- boder-collapse : 테이블 테두리 여백 제거
+- collapse : 여백 간격 X
+
+### List Style
+
+- 4가지 상태 구분
+  - a:link : 기본 상태
+  - a:visited : 방문한 상태
+  - a:hover : 마우스 갖다댄 상태
+  - a:active : 클릭한 상태
+
+## Layout
+
+###
+
+Box Mdel
+
+- content > width/height : 너비/높이
+- padding : 안쪽여백
+- boder : 테두리
+- margin : 바깥여백
+- content, padding, boder : 박스영역에 포함
+
+#### content (width/height)
+
+- 박스 기본성질 (block/inline)
+
+- block 요소 width/height
+  - 크기 지정 안했을 때
+    - 너비 : 부모요소 영역 너비만큼 채워짐
+    - 높이 : 자식요소 영역 높이만큼 지정됨
+  - px 지정
+    - 기본 성질에 상관없이 고정 크기
+  - % 지정
+    - 너비 : 부모요소 영역 기준으로 일정 비율만큼 지정
+      : 부모요소 너비가 변경되면 실시간으로
+    - 높이 : 기본 성질로 적용 > % 단위 적용되지 않음
+
+#### padding
+
+- 4방향 독립적용
+
+  - padding-top
+  - padding-right
+  - padding-bottom
+  - padding-left
+
+- 축약 표현 (4방향 동시적용 값을 따로 적용)
+  - 값 4개 : 각 방향 각각 적용 (시계방향)
+  - 값 3개 : 위/아래 각각 적용, 왼쪽,오른쪽 공통적용
+  - 값 2개 : 위/아래, 왼/오 적용
+  - 값 1개 : 4방향 모두 공통적용
