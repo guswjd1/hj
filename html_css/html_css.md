@@ -328,4 +328,69 @@ h1 {          ← tag 선택자
   - id : 100
   - class : 10
   - tag : 1
-  -
+
+## CSS Property
+
+- Contents styling
+
+  - Text Contents
+  - Multimedia Contents
+
+- Structure styling > laout
+
+### Text Color : 텍스트 색
+
+- color
+- red, #1A3AFF, rgb (255,0,100)
+
+### Text decoration : 텍스트라인
+
+- text-decoration
+- overline, line-through, underline, none
+
+### Text Indent : 텍스트 들여쓰기
+
+- text-indent
+- px 값으로 지정
+  - 양수, 음수값 모두 사용 가능
+
+### Line height : 줄 높이
+
+- line-height
+- px값 지정, 배수값 표현
+
+### White Space : 줄바꿈 지정
+
+- white-space
+- wrap(기본), nowrap
+
+### Font Family : 글꼴 종류
+
+- font-family
+- 고딕체(sans-serif), 명조체(serif)
+- 고딕체 : 본고딕(Noto sans), 나눔바른고딕
+- 웹폰트
+  - 로컬 : woff 폰트 형식 사용
+  - CDN 서비스 : 구글 폰트
+
+### Font Style : 기울임
+
+- font-style
+- italic
+
+### Font Weight : 글꼴 굵기
+
+- font-weight
+- normal, bold
+- 100, 200, 300, 400, 500, 600, 700, 800, 900
+
+### Font Size : 글꼴 크기
+
+- font-size
+- px 단위 지정
+- 브라우저의 기본크기 : 16px
+
+### List style
+
+- list-style-type : 목록 기호 스타일 지정
+- none : 목록 기호 삭제
