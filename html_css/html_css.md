@@ -449,3 +449,38 @@ Box Mdel
   - 값 3개 : 위/아래 각각 적용, 왼쪽,오른쪽 공통적용
   - 값 2개 : 위/아래, 왼/오 적용
   - 값 1개 : 4방향 모두 공통적용
+
+#### margin
+
+- padding과 사용 방법이 같음
+
+- collapse
+  - 위 아래 세로 방향으로 인접해 있을 때 사이 여백이 상쇄되는 현상
+  - 위 아래 여백이 모두 적용되어 있을 때 둘 중 큰쪽만 적용됨
+  - 위 또는 아래 박스 한쪽에만 margin 적용
+
+#### border
+
+- border:1px(굵기) solid(종류) red(색);
+
+- border-top
+- border-right
+- border-bottom
+- border-left
+
+#### box 크기 계산
+
+- content(width/height) + padding + border [+ margin]
+
+```
+ex)
+width:300px, padding:20px, border:1px;
+→ 300 + 40 + 2 = 342
+
+전체크기 : 400px, padding:20px(4), border:1px(4), width
+→ 400 - 40 - 2 = 358
+```
+
+- box-sizing
+  - content-box : content 기준(기본)
+  - border-box : box 기준
