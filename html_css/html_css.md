@@ -484,3 +484,27 @@ width:300px, padding:20px, border:1px;
 - box-sizing
   - content-box : content 기준(기본)
   - border-box : box 기준
+
+```
+ex)
+width:300px, padding:20px(4), border:1px(4);
+box-sizing:border-box;
+→ 전체크기 : 300px
+```
+
+#### inline 요소에 box-model 적용
+
+- content : O
+- border : O
+- margin : 일부적용 (좌우)
+
+  → inline 요소는 레이아웃 구성에 사용할 수 없으음
+
+#### display 속성
+
+- 박스의 화면 표시 속성을 변경
+- display
+  - block
+  - inline
+  - inline-block : 박스모델 적용, 한줄에 나란히 표시
+  - none
