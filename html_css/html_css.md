@@ -541,7 +541,7 @@ box-sizing:border-box;
   - 3 byte : 1 byte(red), 1byte(green), 1 bytr(blue)
 
 * 10진수 : 0~9(10개 숫자)
-* 16진수 : 0~9, A(10)~F(15) (16개의 숫자)
+* 16진수(Hexadecimal) : 0~9, A(10)~F(15) (16개의 숫자)
 
 | color  | Red    | Green  | Blue   |
 | ------ | ------ | ------ | ------ |
@@ -549,3 +549,51 @@ box-sizing:border-box;
 | 개수   | 256    | 256    | 256    |
 | 10진수 | 0~255  | 0~255  | 0~255  |
 | 16진수 | 00~FF  | 00~FF  | 00~FF  |
+
+```
+10진수
+p{
+  color:#0A35FF;
+}
+
+16진수
+div{
+  border color:1px solid rgb(200, 150, 255);
+}
+```
+
+- 투명도
+
+  - opacity
+  - transparent
+  - alpha
+
+- opacity
+  - css 속성
+  - 0 ~ 1 소수점
+
+```
+p{
+  opacity
+}
+```
+
+- transparent
+  - css 속성의 값
+
+```
+div{
+  background-color:transparent;
+  border:1px solid transparent;
+}
+```
+
+- alpha
+  - rgba 함수
+  - red, green, blue, alpha
+
+```
+div{
+  background-color:rgba(200,156,50,0.6)
+}
+```
