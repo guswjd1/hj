@@ -507,4 +507,44 @@ box-sizing:border-box;
   - block
   - inline
   - inline-block : 박스모델 적용, 한줄에 나란히 표시
-  - none
+  - none : 공간차지 안함
+
+#### background
+
+- 배경
+
+  - 배경색
+  - 배경 이미지
+
+- background-imge : 배경 이미지
+- background-repeat : 배경 이미지 반복
+- background-posiltion : 배경 이미지 위치
+- background-attachment : 배경 이미지 고정
+
+#### 색, 투명도
+
+- CSS 색 표현
+
+  - text color, border color, background color
+  - 색 이름(키워드)
+  - 16 진수
+  - 18 진수
+
+- 색 혼합 방식
+
+  - CMYK(감산혼합)
+    - Cyan(청록색), Magenta(자주색), Yellow(노랑), Black(key)(검정색)
+  - RGB(가산혼합)
+    - Red(빨강색), Green(초록색), Blue(파랑색)
+
+- 색 개수 표현
+  - 3 byte : 1 byte(red), 1byte(green), 1 bytr(blue)
+
+* 10진수 : 0~9(10개 숫자)
+* 16진수 : 0~9, A(10)~F(15) (16개의 숫자)
+
+|color |Red |Green |Blue |
+|byte |1 byte|1 byte|1 byte|
+|개수 |256 |256 |256 |
+|10진수|0~255 |0~255 |0~255 |
+|16진수|00~FF |00~FF |00~FF |
