@@ -138,12 +138,52 @@ a {
 
 .header {
   height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 38px 100px 0px;
+}
+
+.logo {
+  width: 31px;
+  height: 25px;
+}
+
+.gnb-list {
+  display: flex;
+}
+
+.gnb-list-item {
+  margin-left: 30px;
+}
+
+.gnb-list-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.gnb-list-link:hover {
+  color: #10c9c3;
 }
 
 .section1 {
   height: 320px;
   padding-top: 105px;
   background: #f6f6f6;
+}
+
+.section-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.section-paragrapgh {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #787878;
 }
 
 .section2 {
@@ -155,12 +195,4 @@ a {
   padding-top: 100px;
   background: #141414;
   color: #bcbcbc;
-}
-
-.section-heading {
-  font-family: "Montserrat", sans-serif;
-}
-
-.section-paragrapgh {
-  font-family: "Nunito Sans", sans-serif;
 }
