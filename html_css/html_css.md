@@ -597,3 +597,31 @@ div{
   background-color:rgba(200,156,50,0.6)
 }
 ```
+
+### Box 배치
+
+#### flex
+
+- display:flex;
+
+  - 가로배치
+  - 배치와 관련된 여러가지 제어를 수비게 할 수 있음
+  - 부모요소에 적용
+
+- 부모요소에 적용하는 flex 관련 style
+  - flex-direction
+  - column, column-reverse, row(default), row-reverse
+- flex-wrap
+  - 배치 줄바꿈
+  - wrap, nowrap(default)
+- justify-content
+  - 가로 정렬(맞춤) : flex-start, center, flex-end
+  - 간격 : space-around, space-between
+- aligh-items -세로 정렬 : flex-start, center, flex-end
+  - stretch(default) : 세로 길이가 부모요소에 맞춰서 채워짐
+    (\* flex 적용된 박스의 가로길이는 자식요소에 맞춰짐)
+
+## 상속(inherit)
+
+- 부모 요소에 적용된 css style이 자식요소에도 적용되는 현상
+-
