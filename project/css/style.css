@@ -190,6 +190,10 @@ a {
   width: 1360px;
 }
 
+.visual {
+  display: block;
+}
+
 .footer {
   height: 280px;
   padding-top: 100px;
