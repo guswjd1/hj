@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html,
 body,
 div,
@@ -107,7 +106,7 @@ section {
   display: block;
 }
 body {
-  /*	line-height: 1;*/
+  /* line-height: 1; */
   font-family: "Nunito Sans", sans-serif;
   color: #171717;
 }
@@ -130,11 +129,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 a {
-  text-decoration: collapse;
+  text-decoration: none;
   color: #171717;
 }
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif; */
 
 .header {
   height: 100px;
@@ -148,21 +148,21 @@ a {
   height: 25px;
 }
 
-.gnb-list {
+.gnb-li {
   display: flex;
 }
 
-.gnb-list-item {
+.gnb-li-i {
   margin-left: 30px;
 }
 
-.gnb-list-link {
+.gnb-li-li {
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 12px;
+  font-weight: 700;
+  font-size: 13px;
 }
 
-.gnb-list-link:hover {
+.gnb-li-li:hover {
   color: #10c9c3;
 }
 
@@ -177,26 +177,53 @@ a {
   font-size: 38px;
   font-weight: 700;
   letter-spacing: 1px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
-.section-paragrapgh {
+.section-paragraph {
   font-family: "Nunito Sans", sans-serif;
   font-size: 18px;
   line-height: 28px;
   color: #787878;
+  text-align: center;
 }
 
 .section2 {
   width: 1360px;
+  margin: 0 auto; /*right, left margin - auto*/
+}
+
+.section2 > .group {
+  display: flex;
+}
+
+.visual-wrap {
+  width: 340px;
+  height: 300px;
+  overflow: hidden;
 }
 
 .visual {
   display: block;
+  height: 300px;
 }
 
 .footer {
   height: 280px;
-  padding-top: 100px;
+  padding: 100px 100px 100px 100px;
   background: #141414;
+  color: #bcbcbc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-logo {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px font-color#fff;
+}
+
+.sns-list-link {
   color: #bcbcbc;
 }
