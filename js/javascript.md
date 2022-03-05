@@ -25,6 +25,26 @@
     - ES5
     - ES6
 
+## Javascript 작성방식
+
+- External : 외부파일
+- Internal : html 파일에 javascript 코드 블럭
+- Inline : Tag에 직접 작성 (잘안씀)
+
+```
+*External
+
+<script src="example.js"></script>
+
+*Internal
+
+<script>
+var a = 1;
+var b = 2;
+</script>
+
+```
+
 ## 데이터, 변수, 연산
 
 - 데이터 타입
