@@ -7,9 +7,37 @@
     <title>Document</title>
     <script>
       let sum = 0;
+      sum = sum + 500;
+      sum = sum + 500;
+      sum = sum + 500;
+      sum = sum + 500;
+      sum = sum + 500;
+
+      console.log("일반구문 : " + sum);
+
       for (let i = 0; i < 5; i++) {
         console.log("훗...다섯번 실행이 되겠지..");
       }
+
+      let sum2 = 0;
+      for (let i = 0; i < 5; i++) {
+        sum2 += 500;
+        console.log("반복구문(for블럭)" + sum2);
+      }
+      console.log("반복구문 for블럭 밖" + sum2);
+
+      for (let v = 2; v < 10; v += 2) {
+        console.log("짝수란다" + v);
+      }
+
+      let id = "front";
+
+      while (true) {
+        if (id === "front") {
+          break;
+        }
+      }
+      console.log("out");
     </script>
   </head>
   <body>
