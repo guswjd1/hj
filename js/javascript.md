@@ -284,6 +284,11 @@ function 함수이름(){
   실행코드
 }
 
+ const 변수(함수)이름 = function(){
+   실행코드;
+ }
+
+function(){} : 익명함수(단독사용 불가)
 ```
 
 ## 배열, 객체, class
@@ -303,6 +308,9 @@ function 함수이름(){
 let car=['volvo','BMW','saab'];
 
 //추가
+car.push('kia')
+
+
 //출력
 console.log(car[0]);
 console.log(car[2]);
@@ -312,4 +320,55 @@ car[1]='Benz';
 
 //삭제
 
+```
+
+### 객체
+
+- 여러가지 종류의 데이터 집합
+- 프로퍼티, 메소드로 구성
+
+### Class
+
+- 객체 데이터를 생설할 수 있게 하는 설계도
+
+```
+class Car{
+  constructor(){
+    this.name='Tom';
+    this.major='Computer';
+  }
+}
+
+let car1 = new Car();
+```
+
+## 추가문법
+
+### 변수 스코프(범위)
+
+- 변수가 적용되는 범위
+- Block, Function 범위는 해당 범위에서만 적용가능
+- Global 범위는 전체범위 적용가능
+
+  - Block Scope
+  - Function Scope
+  - Global Scope
+
+- var
+
+  - Function, Global
+
+- let, const
+  - Block, Function, Global
+
+```
+let a = 1; // Global Scope
+
+if(a<5){
+  let b = 2; // Block Scope
+}
+
+function add(){
+  let c = 3; // Function Scope
+}
 ```
