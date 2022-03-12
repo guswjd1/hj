@@ -372,3 +372,110 @@ function add(){
   let c = 3; // Function Scope
 }
 ```
+
+### Arrow function
+
+```
+function arrow(){}
+
+let arrow = function(){}
+
+let arrow = () => {}
+```
+
+## HTML DOM
+
+### DOM
+
+- Document Object Model
+
+- 동적(Dynamic)
+  - 실제 HTML, CSS에는 없지만 je에서 렌더링되는 시점에 실행되어 적용
+- 정적(Static)
+  - HTML, CSS에서 실제로 코딩한 것이 반영
+
+### DOM properties & Methods
+
+#### Find/Acess DOM
+
+- HTML4
+
+```
+document.querySelector()
+document.querySelectorAll()
+```
+
+#### DOM(HTML) Create Read Update Delete
+
+- Create
+
+```
+document.createElement()
+document.appendChild()
+```
+
+- Read
+
+- Update
+
+```
+document.innerHTML
+```
+
+- Delete
+
+```
+document.romoveChild()
+```
+
+### HTML Event
+
+- 웹페이지/웹서비스에서 특정 상태의 변화
+- 이벤트 발생 > 이벤트감지 > 해당 이벤트에 대해 알맞은 기능 실행
+- 웹페이지 상태변화 : 이벤트
+- 이벤트를 감지하는 것 : 이벤트 리스닝/핸들링
+
+```
+이벤트 리스너
+element.addEventListener('이벤트', 함수)
+
+function myFunction(){}
+
+button.addEventListener('click',myFunction);
+
+button.addEventListener('click',Function(){});
+```
+
+### HTML Forms
+
+- input
+  - empty element
+
+```
+<input type = "text">
+<input type = "password">
+<input type = "button">
+<input type = "submit">
+<input type = "reset">
+<input type = "radio">
+<input type = "checkbox">
+<input type = "file">
+```
+
+- select
+
+```
+<select>
+  <option>목록1</option>
+  <option>목록2</option>
+  <option>목록3</option>
+</select>
+```
+
+- button
+
+```
+<button type="button"></button>
+<button type="submit"></button>
+<button type="reset"></button>
+```
